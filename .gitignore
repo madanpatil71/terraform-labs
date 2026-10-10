@@ -1,0 +1,22 @@
+# Local provider/module cache
+.terraform/
+
+# State files (may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Crash logs and override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
